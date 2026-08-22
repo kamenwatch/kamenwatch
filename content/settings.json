@@ -1,0 +1,75 @@
+{
+  "currency": "$",
+  "ticker": [
+    "Free worldwide shipping over $250",
+    "Every build pressure-tested to 10 ATM",
+    "1-year movement warranty"
+  ],
+  "hero": {
+    "eyebrow": "SEIKO MOD ATELIER · EST. 2024",
+    "title_en": "Nothing here left the factory this way.",
+    "title_id": "Tidak ada satu pun yang keluar pabrik seperti ini.",
+    "title_km": "គ្មានមួយណាចេញពីរោងចក្រក្នុងរូបរាងនេះទេ។",
+    "sub_en": "Every watch is stripped to the case, rebuilt by hand, and pressure-tested before it ships.",
+    "sub_id": "Setiap jam dibongkar sampai ke case, dirakit ulang dengan tangan, dan diuji tekanan sebelum dikirim.",
+    "sub_km": "នាឡិកានីមួយៗត្រូវបានរុះរើ ផ្គុំឡើងវិញដោយដៃ និងសាកល្បងសម្ពាធមុនពេលដឹកជញ្ជូន។",
+    "cta": "See the builds"
+  },
+  "spec": [
+    { "k": "Movement", "v": "NH35A" },
+    { "k": "Crystal", "v": "Sapphire" },
+    { "k": "Water resist", "v": "10 ATM" }
+  ],
+  "strip": [
+    { "t": "Pressure-tested", "d": "Every case goes in the tester twice — after assembly and after the strap swap." },
+    { "t": "Hand-assembled", "d": "One builder owns a watch from teardown to final regulation." },
+    { "t": "12-month warranty", "d": "Movement and seals. We repair, we don't fob you off." },
+    { "t": "Ships worldwide", "d": "Tracked and insured from the workshop, 2–7 working days." }
+  ],
+  "quote": {
+    "text": "A mod is only as good as the seal you can't see.",
+    "by": "— Workshop rule no. 1"
+  },
+  "anatomy": [
+    { "t": "Case & caseback", "d": "Sourced new, ultrasonically cleaned, gaskets replaced before anything goes in." },
+    { "t": "Movement", "d": "NH35A automatic, hacking and hand-winding, regulated on a timegrapher to ±10 s/day." },
+    { "t": "Dial", "d": "Your pick — sunburst, matte, or hand-painted with C3 or BGW9 lume." },
+    { "t": "Hands", "d": "Pressed on with a fitting set, checked for clearance at every position." },
+    { "t": "Chapter ring", "d": "Aligned to the dial track. Misalignment is the fastest way to spot a lazy mod." },
+    { "t": "Crystal & bezel", "d": "Double-domed sapphire with blue AR, ceramic or steel insert seated with a press." },
+    { "t": "Strap & final test", "d": "Fitted, then back into the pressure tester before it's boxed." }
+  ],
+  "care": [
+    { "t": "Wind it, then wear it", "d": "An automatic that sits in a drawer stops. Thirty manual winds brings it back to life." },
+    { "t": "Rinse after salt water", "d": "Fresh water, then dry with a soft cloth. Salt eats gaskets faster than anything." },
+    { "t": "Don't touch the crown wet", "d": "10 ATM means swimming. It doesn't mean unscrewing the crown while the case is wet." },
+    { "t": "Reseal every two years", "d": "Gaskets harden. Send it back and we'll swap them and retest, parts at cost." }
+  ],
+  "faq": [
+    { "q": "Is this a real Seiko?", "a": "The movement and case are genuine Seiko parts. The dial, hands, bezel and crystal are aftermarket, fitted by us. That makes it a custom build, not a factory Seiko — and we never sell it as one." },
+    { "q": "Will it still be water resistant?", "a": "Yes. Every build is pressure-tested to 10 ATM after assembly. If a test fails, the watch goes back on the bench, not into a box." },
+    { "q": "How long does a custom order take?", "a": "Usually 7–14 days depending on parts. If something is backordered we tell you before you pay, not after." },
+    { "q": "What does the warranty cover?", "a": "Twelve months on the movement and the seals. Accidental damage and normal wear on straps aren't covered." },
+    { "q": "Can you mod a watch I already own?", "a": "Yes. Message us on WhatsApp with photos and what you want changed, and we'll quote parts and labour separately." }
+  ],
+  "visit": {
+    "title": "Come see a build on the bench.",
+    "address": "Add your workshop address in the admin panel.",
+    "hours": "Mon–Sat · 10:00–18:00",
+    "maps_embed": "",
+    "maps_link": ""
+  },
+  "contact": {
+    "primary": "telegram",
+    "telegram": "",
+    "whatsapp": "",
+    "messenger": "",
+    "email": "hello@kamenwatch.com"
+  },
+  "news_title": "Builds sell out in hours. Get told first.",
+  "footer_blurb": "A small workshop building custom Seiko mods one at a time. No batches, no drop-shipping.",
+  "social": [
+    { "label": "Instagram", "url": "https://instagram.com/" },
+    { "label": "TikTok", "url": "https://tiktok.com/" }
+  ]
+}

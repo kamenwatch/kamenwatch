@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Atoll 007",
+      "ref": "KW-001",
+      "category": "Diver",
+      "price": "289",
+      "badge": "New",
+      "stock": "in",
+      "image": "",
+      "desc_en": "SKX-style case, ceramic bezel, sunburst teal dial with BGW9 lume.",
+      "desc_id": "Case gaya SKX, bezel keramik, dial sunburst teal dengan lume BGW9.",
+      "desc_km": ""
+    },
+    {
+      "name": "Nightshift",
+      "ref": "KW-002",
+      "category": "Diver",
+      "price": "265",
+      "badge": "",
+      "stock": "in",
+      "image": "",
+      "desc_en": "All-black PVD case, matte dial, sapphire with blue AR coating.",
+      "desc_id": "Case PVD hitam total, dial matte, sapphire dengan lapisan AR biru.",
+      "desc_km": ""
+    },
+    {
+      "name": "Field 62",
+      "ref": "KW-003",
+      "category": "Field",
+      "price": "235",
+      "badge": "",
+      "stock": "in",
+      "image": "",
+      "desc_en": "36 mm SNK case, brushed steel, cream dial and gilt hands.",
+      "desc_id": "Case SNK 36 mm, baja brushed, dial krem dan jarum gilt.",
+      "desc_km": ""
+    },
+    {
+      "name": "Reef GMT",
+      "ref": "KW-004",
+      "category": "GMT",
+      "price": "340",
+      "badge": "",
+      "stock": "out",
+      "image": "",
+      "desc_en": "NH34 true GMT, two-tone ceramic insert, jubilee bracelet.",
+      "desc_id": "NH34 true GMT, insert keramik dua warna, bracelet jubilee.",
+      "desc_km": ""
+    },
+    {
+      "name": "Tropic Rubber Strap",
+      "ref": "KW-S01",
+      "category": "Straps",
+      "price": "35",
+      "badge": "",
+      "stock": "in",
+      "image": "",
+      "desc_en": "20 mm FKM rubber, quick-release pins, brushed steel buckle.",
+      "desc_id": "Karet FKM 20 mm, pin quick-release, gesper baja brushed.",
+      "desc_km": ""
+    }
+  ]
+}
