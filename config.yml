@@ -1,0 +1,146 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+site_url: https://kamenwatch.com
+logo_url: https://kamenwatch.com/images/uploads/logo.png
+locale: en
+
+collections:
+  - name: "products"
+    label: "Products (builds & straps)"
+    files:
+      - name: "catalogue"
+        label: "Catalogue"
+        file: "content/products.json"
+        format: "json"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            label_singular: "Product"
+            summary: "{{fields.name}} — {{fields.ref}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string", hint: "Shown big on the card, e.g. Atoll 007" }
+              - { label: "Reference code", name: "ref", widget: "string", required: false, hint: "Your internal code, e.g. KW-001" }
+              - { label: "Category", name: "category", widget: "select", options: ["Diver", "Field", "GMT", "Dress", "Straps", "Parts"], hint: "Creates the filter tabs above the grid" }
+              - { label: "Price (number only)", name: "price", widget: "string", hint: "No currency symbol — set the symbol in Site settings" }
+              - { label: "Badge", name: "badge", widget: "string", required: false, hint: "Optional corner label, e.g. New or Limited" }
+              - { label: "Availability", name: "stock", widget: "select", options: [{ label: "In stock", value: "in" }, { label: "Sold out", value: "out" }], default: "in" }
+              - { label: "Photo", name: "image", widget: "image", required: false, hint: "Square photo works best. Leave empty to show the placeholder." }
+              - { label: "Description (English)", name: "desc_en", widget: "text" }
+              - { label: "Description (Indonesian)", name: "desc_id", widget: "text", required: false }
+              - { label: "Description (Khmer)", name: "desc_km", widget: "text", required: false }
+
+  - name: "settings"
+    label: "Site settings"
+    files:
+      - name: "general"
+        label: "Everything else on the page"
+        file: "content/settings.json"
+        format: "json"
+        fields:
+          - { label: "Currency symbol", name: "currency", widget: "string", default: "$" }
+
+          - label: "Top bar messages"
+            name: "ticker"
+            widget: "list"
+            field: { label: "Message", name: "msg", widget: "string" }
+            hint: "These scroll across the gold bar at the very top"
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Small label above headline", name: "eyebrow", widget: "string" }
+              - { label: "Headline (English)", name: "title_en", widget: "string" }
+              - { label: "Headline (Indonesian)", name: "title_id", widget: "string", required: false }
+              - { label: "Headline (Khmer)", name: "title_km", widget: "string", required: false }
+              - { label: "Subtext (English)", name: "sub_en", widget: "text" }
+              - { label: "Subtext (Indonesian)", name: "sub_id", widget: "text", required: false }
+              - { label: "Subtext (Khmer)", name: "sub_km", widget: "text", required: false }
+              - { label: "Button label", name: "cta", widget: "string" }
+
+          - label: "Three specs under the hero"
+            name: "spec"
+            widget: "list"
+            max: 3
+            fields:
+              - { label: "Label", name: "k", widget: "string" }
+              - { label: "Value", name: "v", widget: "string" }
+
+          - label: "Trust strip (4 items)"
+            name: "strip"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "t", widget: "string" }
+              - { label: "Detail", name: "d", widget: "text" }
+
+          - label: "Pull quote"
+            name: "quote"
+            widget: "object"
+            fields:
+              - { label: "Quote", name: "text", widget: "text" }
+              - { label: "Attribution", name: "by", widget: "string" }
+
+          - label: "Assembly steps"
+            name: "anatomy"
+            widget: "list"
+            fields:
+              - { label: "Part", name: "t", widget: "string" }
+              - { label: "What you do to it", name: "d", widget: "text" }
+
+          - label: "Care tips"
+            name: "care"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "t", widget: "string" }
+              - { label: "Advice", name: "d", widget: "text" }
+
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            fields:
+              - { label: "Question", name: "q", widget: "string" }
+              - { label: "Answer", name: "a", widget: "text" }
+
+          - label: "Workshop & contact"
+            name: "visit"
+            widget: "object"
+            fields:
+              - { label: "Section headline", name: "title", widget: "string" }
+              - { label: "Address", name: "address", widget: "text" }
+              - { label: "Opening hours", name: "hours", widget: "string" }
+              - { label: "Google Maps embed URL", name: "maps_embed", widget: "string", required: false, hint: "Google Maps → Share → Embed a map → copy only the src=\"...\" value" }
+              - { label: "Google Maps link", name: "maps_link", widget: "string", required: false, hint: "The normal share link, opens in the Maps app" }
+
+          - label: "Chat channels"
+            name: "contact"
+            widget: "object"
+            fields:
+              - label: "Main channel for Order buttons"
+                name: "primary"
+                widget: "select"
+                default: "telegram"
+                options:
+                  - { label: "Telegram", value: "telegram" }
+                  - { label: "WhatsApp", value: "whatsapp" }
+                  - { label: "Messenger", value: "messenger" }
+                hint: "Every Order button on a product card opens this one. Use Telegram for the Cambodia market."
+              - { label: "Telegram username", name: "telegram", widget: "string", required: false, hint: "Just the username, no @ — e.g. kamenwatch" }
+              - { label: "WhatsApp number", name: "whatsapp", widget: "string", required: false, hint: "Country code first, no + or spaces — e.g. 855123456789" }
+              - { label: "Messenger page name", name: "messenger", widget: "string", required: false, hint: "Your Facebook page username, e.g. kamenwatch. Needed for Click-to-Message ads." }
+              - { label: "Email", name: "email", widget: "string", required: false }
+
+          - { label: "Newsletter headline", name: "news_title", widget: "string" }
+          - { label: "Footer blurb", name: "footer_blurb", widget: "text" }
+
+          - label: "Social links"
+            name: "social"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
