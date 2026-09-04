@@ -1,13 +1,13 @@
 {
   "contact": {
     "primary": "telegram",
-    "telegram": "",
-    "whatsapp": "",
-    "messenger": "",
-    "email": "hello@kamenwatch.com"
+    "telegram": "kamenwatch",
+    "whatsapp": "855968943055",
+    "messenger": "https://web.facebook.com/profile.php?id=61593347262687",
+    "email": "kamenwatch@gmail.com"
   },
   "ticker": [
-    "Free worldwide shipping over $250",
+    "Free shipping JNT/ Virak Buntham over $250",
     "Every build pressure-tested to 10 ATM",
     "1-year movement warranty"
   ],
@@ -24,7 +24,7 @@
   "social": [
     {
       "label": "Instagram",
-      "url": "https://instagram.com/"
+      "url": "https://www.instagram.com/kamenwatch/"
     },
     {
       "label": "TikTok",
@@ -61,23 +61,23 @@
   "faq": [
     {
       "q": "Is this a real Seiko?",
-      "a": "The movement and case are genuine Seiko parts. The dial, hands, bezel and crystal are aftermarket, fitted by us. That makes it a custom build, not a factory Seiko — and we never sell it as one."
+      "a": "We use genuine Seiko automatic movements for uncompromised reliability. To create a unique, luxury aesthetic, components like the dial, hands, bezel, and crystal are custom-made aftermarket parts expertly fitted by hand. It is a bespoke horological creation, not a mass-produced factory Seiko—and we hold ourselves to that distinction."
     },
     {
       "q": "Will it still be water resistant?",
-      "a": "Yes. Every build is pressure-tested to 10 ATM after assembly. If a test fails, the watch goes back on the bench, not into a box."
+      "a": "Absolutely. Every build undergoes rigorous pressure testing up to 10 ATM after assembly. If a watch fails to meet our strict sealing standards, it goes right back to the workbench—never into a customer box."
     },
     {
       "q": "How long does a custom order take?",
-      "a": "Usually 7–14 days depending on parts. If something is backordered we tell you before you pay, not after."
+      "a": "Typically 10–14 business days. We value open communication: if any specific custom part requires extra lead time, we inform you before any payment is made, ensuring your expectations are always met."
     },
     {
       "q": "What does the warranty cover?",
-      "a": "Twelve months on the movement and the seals. Accidental damage and normal wear on straps aren't covered."
+      "a": "We provide a comprehensive 12-month warranty covering the movement and water seals. Physical accidental damage or normal wear on straps are excluded."
     },
     {
       "q": "Can you mod a watch I already own?",
-      "a": "Yes. Message us on WhatsApp with photos and what you want changed, and we'll quote parts and labour separately."
+      "a": "Yes. We love bringing your ideas to life. Send us a message on WhatsApp with photos of your watch and your vision. We will listen to your preferences and provide a transparent quote for parts and labor."
     }
   ],
   "footer_blurb": "A small workshop building custom Seiko mods one at a time. No batches, no drop-shipping.",
@@ -95,48 +95,48 @@
       "d": "Movement and seals. We repair, we don't fob you off."
     },
     {
-      "t": "Ships worldwide",
+      "t": "Ships all Cambodia",
       "d": "Tracked and insured from the workshop, 2–7 working days."
     }
   ],
   "hero": {
-    "eyebrow": "SEIKO MOD ATELIER · EST. 2024",
-    "title_en": "Nothing here left the factory this way.",
-    "title_id": "Tidak ada satu pun yang keluar pabrik seperti ini.",
-    "title_km": "គ្មានមួយណាចេញពីរោងចក្រក្នុងរូបរាងនេះទេ។",
-    "sub_en": "Every watch is stripped to the case, rebuilt by hand, and pressure-tested before it ships.",
-    "sub_id": "Setiap jam dibongkar sampai ke case, dirakit ulang dengan tangan, dan diuji tekanan sebelum dikirim.",
-    "sub_km": "នាឡិកានីមួយៗត្រូវបានរុះរើ ផ្គុំឡើងវិញដោយដៃ និងសាកល្បងសម្ពាធមុនពេលដឹកជញ្ជូន។",
+    "eyebrow": "SEIKO MOD ATELIER SIHANOUKVILLE",
+    "title_en": "Precision Horology, Shaped Entirely by Your Voice.",
+    "title_id": "Bukan Jam Tangan Biasa. Dirakit Manual, Tahan Lama.",
+    "title_km": "នាឡិកា Seiko Mod កែច្នៃពិសេស ដំឡើងដោយដៃយ៉ាងផ្ចិតផ្ចង់។",
+    "sub_en": "True luxury listens. From custom dials to timegrapher-calibrated movements and pressure-tested double-domed sapphire, we turn your specific feedback into an uncompromising hand-built masterpiece.",
+    "sub_id": "Tujuh tahapan rakitan ketat, pembersihan ultrasonik, dan presisi tanpa cela. Kami merakit jam tangan kustom kelas premium dengan menempatkan saran Anda di setiap detailnya.",
+    "sub_km": "ផ្លាស់ប្តូរ និងដំឡើងដោយដៃផ្ទាល់ ព្រមទាំងឆ្លងកាត់ការតេស្តជម្រាបទឹកយ៉ាងម៉ត់ចត់។ បង្កើតស្ទីលប្លែកពីគេដែលមិនធ្លាប់មានពីមុនមក។",
     "cta": "See the builds"
   },
   "anatomy": [
     {
       "t": "Case & caseback",
-      "d": "Sourced new, ultrasonically cleaned, gaskets replaced before anything goes in."
+      "d": "Sourced brand new, deep-cleaned, and fitted with fresh premium gaskets before a single component is touched."
     },
     {
-      "t": "Movement",
-      "d": "NH35A automatic, hacking and hand-winding, regulated on a timegrapher to ±10 s/day."
+      "t": "Movement — Fine-Tuned Caliber",
+      "d": "NH35A automatic movement with hacking and hand-winding, regulated on a professional timegrapher to a strict $\\pm10$ s/day accuracy."
     },
     {
-      "t": "Dial",
-      "d": "Your pick — sunburst, matte, or hand-painted with C3 or BGW9 lume."
+      "t": "DIAL — Guided By Your Choice",
+      "d": "Tailored entirely to your taste—choose between sunburst, matte, or hand-painted finishes elevated with high-grade C3 or BGW9 Swiss Super-LumiNova."
     },
     {
       "t": "Hands",
-      "d": "Pressed on with a fitting set, checked for clearance at every position."
+      "d": "Precision-pressed using specialized fitting tools and rigorously checked at every position for flawless gear clearance."
     },
     {
       "t": "Chapter ring",
-      "d": "Aligned to the dial track. Misalignment is the fastest way to spot a lazy mod."
+      "d": "Aligned perfectly with the dial tracks. Because in fine horology, even a fraction of a millimeter misalignment is unacceptable."
     },
     {
-      "t": "Crystal & bezel",
-      "d": "Double-domed sapphire with blue AR, ceramic or steel insert seated with a press."
+      "t": "CRYSTAL & BEZEL — High-Grade Sapphire Architecture",
+      "d": "Double-domed sapphire crystal with anti-reflective (AR) coating, paired with high-tech ceramic or steel inserts, hydraulic-seated for absolute structural integrity."
     },
     {
-      "t": "Strap & final test",
-      "d": "Fitted, then back into the pressure tester before it's boxed."
+      "t": "Strap & Final test",
+      "d": "Fitted to perfection, then subjected to rigorous dry and wet pressure testing before receiving its final seal of approval and luxury boxing."
     }
   ],
   "spec": [
