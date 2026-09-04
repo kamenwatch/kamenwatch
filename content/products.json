@@ -1,64 +1,64 @@
 {
   "products": [
     {
-      "name": "Atoll 007",
-      "ref": "KW-001",
-      "category": "Diver",
-      "price": "289",
-      "badge": "New",
+      "badge": "NEW",
+      "price": "190",
+      "desc_id": "",
+      "name": "Seitona Gold Dial Tiffany Blue",
+      "desc_km": "",
+      "ref": "",
       "stock": "in",
-      "image": "",
-      "desc_en": "SKX-style case, ceramic bezel, sunburst teal dial with BGW9 lume.",
-      "desc_id": "Case gaya SKX, bezel keramik, dial sunburst teal dengan lume BGW9.",
-      "desc_km": ""
+      "desc_en": "Daytona Style, Ceramic bezel, Tiffany Blue dial, Crystal Sapphire, VK63 seiko Machine",
+      "image": "https://scontent.fpnh18-4.fna.fbcdn.net/v/t39.30808-6/789268021_122108713557444908_2172499161174516736_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEwMnYo1yyn9Ch1Bk-w0astcmkRX39NGPhyaRFff00Y-DmJTEtrQ9qm3XqtZcu0ISnmJmqRaG2-xkhWbIBdnprK&_nc_ohc=ZjMyB4USid0Q7kNvwHt2I8M&_nc_oc=AdqyJX53WJxdwfzRCcPxI9ixne4i4CN8wKruOXwYnz1sqq8GLbH-kiiOh0eXpV4eahc&_nc_zt=23&_nc_ht=scontent.fpnh18-4.fna&_nc_gid=ubJyGRo4jmoovkbrIAs7qg&_nc_ss=7b2a8&oh=00_AQLXxLNKRKiuT16QZT752oCSxgVSa2dnD9-hL4q4pAchLg&oe=6AA041F3",
+      "category": "Dress"
     },
     {
-      "name": "Nightshift",
-      "ref": "KW-002",
-      "category": "Diver",
-      "price": "265",
-      "badge": "",
+      "badge": "NEW",
+      "price": "320",
+      "desc_id": "",
+      "name": "Casioak GA-2100 ",
+      "desc_km": "",
+      "ref": "",
       "stock": "in",
-      "image": "",
-      "desc_en": "All-black PVD case, matte dial, sapphire with blue AR coating.",
-      "desc_id": "Case PVD hitam total, dial matte, sapphire dengan lapisan AR biru.",
-      "desc_km": ""
+      "desc_en": "Basic G-Shock GA-2100 with metal case AP royal oak style",
+      "image": "https://scontent.fpnh5-5.fna.fbcdn.net/v/t39.30808-6/793337336_122108713653444908_4503688498918275876_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEu9voc8MgYS3n8E8ujs35AOpmZQd3bxaU6mZlB3dvFpaamr2XXP5vtBshkSl0e93N_ZeeqQYjmBscXpC3FBAf_&_nc_ohc=OVx6tSZkhWAQ7kNvwHOO2Ji&_nc_oc=Adpp6X4fKio1SZMLAmG3luf9MD5QStsL1U0bD3mZdR4oGacqYLaXgq27YBQhnyLWgHQ&_nc_zt=23&_nc_ht=scontent.fpnh5-5.fna&_nc_gid=52dhP-TBNR_wdtDeFWxezQ&_nc_ss=7b2a8&oh=00_AQLx-Z47mkXneKH48kKiLC1qI9nu_SS2iA36bprYfxpfBw&oe=6AA0649A",
+      "category": "Field"
     },
     {
-      "name": "Field 62",
-      "ref": "KW-003",
-      "category": "Field",
-      "price": "235",
-      "badge": "",
+      "badge": "NEW",
+      "price": "295",
+      "desc_id": "",
+      "name": "CASIOAK GBM-2100",
+      "desc_km": "",
+      "ref": "",
       "stock": "in",
-      "image": "",
-      "desc_en": "36 mm SNK case, brushed steel, cream dial and gilt hands.",
-      "desc_id": "Case SNK 36 mm, baja brushed, dial krem dan jarum gilt.",
-      "desc_km": ""
+      "desc_en": "GBM 2100 New Model big diameter gshock for BIGBOY",
+      "image": "https://scontent.fpnh5-3.fna.fbcdn.net/v/t39.30808-6/790310339_122108713707444908_470825500132275765_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHB2W_wFKefFXI7n4blC-CQJaBpxkhCtfwloGnGSEK1_KiXvye6uHDcdz1Ice40YSMHl4yALckHgibEjJJY3j9e&_nc_ohc=Tv6yPcGVt8kQ7kNvwG_2UV-&_nc_oc=AdrrJg86HCjSqAX6U_fMKd0WMnfXXRX2_ZV-j7BN_1uvzNQhkwWquKcpO2ypidgc3YI&_nc_zt=23&_nc_ht=scontent.fpnh5-3.fna&_nc_gid=NGgQfO_fPag_UK9w9_scPw&_nc_ss=7b2a8&oh=00_AQL_Lu0Lk36_W6Qmz4wC6NZbdhECAEDUie0OF9TBOXKwXg&oe=6AA03437",
+      "category": "Field"
     },
     {
-      "name": "Reef GMT",
-      "ref": "KW-004",
-      "category": "GMT",
-      "price": "340",
+      "badge": "LIMITED",
+      "price": "130",
+      "desc_id": "",
+      "name": "CASIO AE 1200 Mars edition",
+      "desc_km": "",
+      "ref": "",
+      "stock": "in",
+      "desc_en": "Casio AE1200 Red MARS edition ",
+      "image": "https://scontent.fpnh5-1.fna.fbcdn.net/v/t39.30808-6/793203720_122108713965444908_126577895818667720_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG21RxwP4guCGTqhlfgBAysF9oMv8jiLIgX2gy_yOIsiFyxnLl6FL99v7LO8Wp9mepyDCbjNMt6UL0PzkbyNJNf&_nc_ohc=RRFKSr_4IMwQ7kNvwE9SyXX&_nc_oc=Adp0rDbEWP9_aObjhCqlGbFT_LivzXv3eL_IPGG1CgZ56WZ0Q5cKGeozcKHKmMqh9XY&_nc_zt=23&_nc_ht=scontent.fpnh5-1.fna&_nc_gid=2O4KtfjWNura8NeceTLCQQ&_nc_ss=7b2a8&oh=00_AQK8O_1kCGvKlVTZqzzjpq1IakLVC4g0Lr5xjKZQEkB0eQ&oe=6AA04DCB",
+      "category": "Field"
+    },
+    {
       "badge": "",
-      "stock": "out",
-      "image": "",
-      "desc_en": "NH34 true GMT, two-tone ceramic insert, jubilee bracelet.",
-      "desc_id": "NH34 true GMT, insert keramik dua warna, bracelet jubilee.",
-      "desc_km": ""
-    },
-    {
-      "name": "Tropic Rubber Strap",
-      "ref": "KW-S01",
-      "category": "Straps",
       "price": "35",
-      "badge": "",
-      "stock": "in",
-      "image": "",
-      "desc_en": "20 mm FKM rubber, quick-release pins, brushed steel buckle.",
       "desc_id": "Karet FKM 20 mm, pin quick-release, gesper baja brushed.",
-      "desc_km": ""
+      "name": "Tropic Rubber Strap",
+      "desc_km": "",
+      "ref": "KW-S01",
+      "stock": "in",
+      "desc_en": "20 mm FKM rubber, quick-release pins, brushed steel buckle.",
+      "image": "",
+      "category": "Straps"
     }
   ]
 }
