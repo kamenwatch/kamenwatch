@@ -15,8 +15,10 @@ import { readFile, writeFile, access } from "node:fs/promises";
 
 /* ---------- settings you can edit ---------- */
 const SITE = "https://kamenwatch.com";
-const TITLE = "Seiko Mods, G-Shock & Watches in Phnom Penh | KamenWatch";
-const DESCRIPTION = "Custom Seiko mods built by hand and pressure-tested, plus original G-Shock and everyday watches. Visit our Phnom Penh shop or order on Telegram.";
+const CITY = "Sihanoukville";      // the shop's city: title, schema, footer, llms.txt
+const REGION = "Preah Sihanouk";    // province, used in the schema
+const TITLE = "Seiko Mods, G-Shock & Watches in Sihanoukville | KamenWatch";
+const DESCRIPTION = "Custom Seiko mods built by hand and pressure-tested, plus original G-Shock and everyday watches. Visit our Sihanoukville shop or order on Telegram.";
 const GA4_ID = "";    // Google Analytics 4 ID, e.g. "G-ABC123XYZ". Empty = off.
 const GSC_TOKEN = ""; // Google Search Console "HTML tag" token. Empty = off.
 const SHOP_TITLE = {
@@ -37,6 +39,7 @@ const BUY_LABELS = [
   ["បញ្ជាទិញតាម WhatsApp", "បញ្ជាទិញតាម Telegram"],
 ];
 
+const CITY_RE = /sihanoukville|preah sihanouk|kampong som/i;
 const log = (...a) => console.log("[seo-build]", ...a);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const reEsc = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -143,8 +146,8 @@ async function main() {
     priceRange: "$$",
     currenciesAccepted: "USD",
     knowsLanguage: ["en", "id", "km"],
-    areaServed: { "@type": "City", name: "Phnom Penh" },
-    address: { "@type": "PostalAddress", streetAddress: addressOk ? addressLine : undefined, addressLocality: "Phnom Penh", addressCountry: "KH" },
+    areaServed: { "@type": "City", name: CITY },
+    address: { "@type": "PostalAddress", streetAddress: addressOk ? addressLine : undefined, addressLocality: CITY, addressRegion: REGION, addressCountry: "KH" },
     telephone: phone || undefined,
     email: visit.email || contact.email || undefined,
     hasMap: realUrl(visit.maps_link) ? visit.maps_link : undefined,
@@ -199,7 +202,7 @@ async function main() {
   if (S.news_title) html = setInner(html, "newsTitle", esc(S.news_title));
   if (S.footer_blurb) html = setInner(html, "footBlurb", esc(S.footer_blurb));
   if ((addressOk || phone) && !html.includes('id="footNap"')) {
-    const nap = ["KamenWatch", addressOk ? `${addressLine}${/phnom penh/i.test(addressLine) ? "" : ", Phnom Penh"}` : "Phnom Penh, Cambodia", phone ? `Tel ${phone}` : ""].filter(Boolean).join(" · ");
+    const nap = ["KamenWatch", addressOk ? `${addressLine}${CITY_RE.test(addressLine) ? "" : `, ${CITY}`}` : `${CITY}, Cambodia`, phone ? `Tel ${phone}` : ""].filter(Boolean).join(" · ");
     html = insertAfter(html, "footBlurb", `\n<p class="mono" id="footNap">${esc(nap)}</p>`);
   }
   if (Array.isArray(S.social) && S.social.length) {
@@ -231,9 +234,9 @@ async function main() {
   if (!(await exists("llms.txt"))) {
     const L = [];
     L.push("# KamenWatch", "");
-    L.push("> Watch shop and Seiko mod workshop in Phnom Penh, Cambodia. Custom Seiko mods built by hand and pressure-tested, plus original Casio G-Shock and everyday watches from Poedagar and SKMEI. Service in English, Bahasa Indonesia and Khmer.", "");
+    L.push(`> Watch shop and Seiko mod workshop in ${CITY}, Cambodia. Custom Seiko mods built by hand and pressure-tested, plus original Casio G-Shock and everyday watches from Poedagar and SKMEI. Service in English, Bahasa Indonesia and Khmer.`, "");
     L.push(`- Website: ${SITE}/`);
-    if (addressOk) L.push(`- Address: ${addressLine}${/phnom penh/i.test(addressLine) ? "" : ", Phnom Penh, Cambodia"}`);
+    if (addressOk) L.push(`- Address: ${addressLine}${CITY_RE.test(addressLine) ? "" : `, ${CITY}, Cambodia`}`);
     if (visit.hours) L.push(`- Opening hours: ${visit.hours}`);
     if (phone) L.push(`- Phone / WhatsApp: ${phone}`);
     if (tg) L.push(`- Telegram: https://t.me/${tg}`);
