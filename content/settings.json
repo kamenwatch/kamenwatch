@@ -13,10 +13,10 @@
   ],
   "visit": {
     "title": "Come see a build on the bench.",
-    "address": "Add your workshop address in the admin panel.",
+    "address": "JH73+JGC, Preah Sihanouk 18010",
     "hours": "Everyday · 10:00–22:00",
-    "maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.5529357347955!2d103.55381679999999!3d10.614084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31080b2325d3325f%3A0x9c7045be5c8cdaa3!2sKamen%20Watch!5e0!3m2!1sen!2sid!4v1787552593058!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin",
-    "maps_link": "https://maps.app.goo.gl/sGcuUjkPsdfxa9Dp6",
+    "maps_embed": "\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.552935869152!2d103.55124187480241!3d10.614083989524987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31080b2325d3325f%3A0x9c7045be5c8cdaa3!2sKamen%20Watch!5e0!3m2!1sen!2skh!4v1793943260904!5m2!1sen!2skh\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"",
+    "maps_link": "https://maps.app.goo.gl/sKwopTUsJU71rKTW6",
     "email": "kamenwatch@gmail.com",
     "whatsapp": "+855968943055"
   },
@@ -65,7 +65,7 @@
     },
     {
       "q": "Will it still be water resistant?",
-      "a": "Absolutely. Every build undergoes rigorous pressure testing up to 10 ATM after assembly. If a watch fails to meet our strict sealing standards, it goes right back to the workbench—never into a customer box."
+      "a": "Yes. Every Seiko mod is pressure-tested to 10 ATM after assembly. If a test fails, the watch goes back on the bench, not into a box. Other watches keep their factory rating, listed on each card."
     },
     {
       "q": "How long does a custom order take?",
@@ -73,14 +73,30 @@
     },
     {
       "q": "What does the warranty cover?",
-      "a": "We provide a comprehensive 12-month warranty covering the movement and water seals. Physical accidental damage or normal wear on straps are excluded."
+      "a": "For Seiko mods: twelve months on the movement and the seals. Accidental damage and normal wear on straps aren’t covered. For other watches, ask us before you buy."
     },
     {
       "q": "Can you mod a watch I already own?",
-      "a": "Yes. We love bringing your ideas to life. Send us a message on WhatsApp with photos of your watch and your vision. We will listen to your preferences and provide a transparent quote for parts and labor."
+      "a": "Yes. Message us on Telegram with photos and what you want changed, and we’ll quote parts and labour separately."
+    },
+    {
+      "q": "Are the G-Shocks original?",
+      "a": "Yes. The G-Shocks in the shop are original Casio and carry an Original Casio label on their card. If we ever modify one, the card says Mod, not Original."
+    },
+    {
+      "q": "What are Poedagar and SKMEI?",
+      "a": "Watch brands sold under their own names, with the brand on the dial and on the card. They aren’t mods, and we don’t present them as anything else."
+    },
+    {
+      "q": "How do I order?",
+      "a": "Tap Order on any watch to message us on Telegram with its reference code, like PD-03. We reply with stock, colours and delivery."
+    },
+    {
+      "q": "Where is the shop?",
+      "a": "JH73+JGC, Preah Sihanouk 18010. Open Everyday · 10:00–22:00. Message ahead if you want to see a specific watch."
     }
   ],
-  "footer_blurb": "A small workshop building custom Seiko mods one at a time. No batches, no drop-shipping.",
+  "footer_blurb": "A small Sihanoukville workshop building custom Seiko mods one at a time plus original G-Shock and everyday watches, each labelled for what it is.",
   "strip": [
     {
       "t": "Pressure-tested",
@@ -100,14 +116,14 @@
     }
   ],
   "hero": {
-    "eyebrow": "SEIKO MOD ATELIER SIHANOUKVILLE",
-    "title_en": "Precision Horology, Shaped Entirely by Your Voice.",
-    "title_id": "Bukan Jam Tangan Biasa. Dirakit Manual, Tahan Lama.",
-    "title_km": "នាឡិកា Seiko Mod កែច្នៃពិសេស ដំឡើងដោយដៃយ៉ាងផ្ចិតផ្ចង់។",
-    "sub_en": "True luxury listens. From custom dials to timegrapher-calibrated movements and pressure-tested double-domed sapphire, we turn your specific feedback into an uncompromising hand-built masterpiece.",
-    "sub_id": "Tujuh tahapan rakitan ketat, pembersihan ultrasonik, dan presisi tanpa cela. Kami merakit jam tangan kustom kelas premium dengan menempatkan saran Anda di setiap detailnya.",
-    "sub_km": "ផ្លាស់ប្តូរ និងដំឡើងដោយដៃផ្ទាល់ ព្រមទាំងឆ្លងកាត់ការតេស្តជម្រាបទឹកយ៉ាងម៉ត់ចត់។ បង្កើតស្ទីលប្លែកពីគេដែលមិនធ្លាប់មានពីមុនមក។",
-    "cta": "See the builds"
+    "eyebrow": "SIHANOUKVILLE · SEIKO MOD ATELIER · EST. 2024",
+    "title_en": "Custom Seiko mods, built by hand in Sihanoukville.",
+    "title_id": "Seiko mod custom, dirakit tangan di Sihanoukville.",
+    "title_km": "Seiko mod តាមបំណង ផ្គុំដោយដៃនៅក្រុងព្រះសីហនុ។",
+    "sub_en": "Every mod is stripped to the case, rebuilt by hand and pressure-tested. The rest of the shelf original G-Shock, Poedagar and SKMEI is labelled for exactly what it is.",
+    "sub_id": "Setiap mod dibongkar sampai ke case, dirakit ulang dengan tangan, lalu dites tekanan. Sisanya di etalase G-Shock original, Poedagar, dan SKMEI dilabeli apa adanya.",
+    "sub_km": "Seiko mod នីមួយៗត្រូវបានរុះរើដល់តួ ផ្គុំឡើងវិញដោយដៃ និងតេស្តសម្ពាធ។ នាឡិកាផ្សេងទៀតលើធ្នើ G-Shock ពិតប្រាកដ Poedagar និង SKMEI មានស្លាកប្រាប់ច្បាស់ថាជាអ្វី។",
+    "cta": "See the watches"
   },
   "anatomy": [
     {
