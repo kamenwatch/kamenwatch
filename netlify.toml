@@ -1,6 +1,6 @@
 [build]
   publish = "."
-  command = ""
+  command = "node seo-build.mjs"
 
 [[headers]]
   for = "/*"
@@ -18,3 +18,8 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, stale-while-revalidate=86400"
