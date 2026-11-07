@@ -197,7 +197,7 @@ function renderGrid(){
     const ch = chatLink(`Hi KamenWatch, I'd like to order ${p.name} (${p.ref||""}).`);
     const link = ch.url;
     const img = p.image
-      ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy">`
+      ? `<img src="${esc(p.image)}" alt="${esc(pick(p,"alt") || p.name)}" loading="lazy">`
       : `<svg class="card__ph" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="52" r="30" fill="none" stroke="currentColor" stroke-width="3"/><rect x="42" y="10" width="16" height="14" fill="currentColor"/><rect x="42" y="80" width="16" height="14" fill="currentColor"/><path d="M50 34v18l12 7" stroke="currentColor" stroke-width="3" fill="none"/></svg>`;
     const badge = out ? `<span class="card__tag card__tag--out">${T[LANG].sold}</span>`
                       : (p.badge ? `<span class="card__tag">${esc(p.badge)}</span>` : "");
