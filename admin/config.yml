@@ -26,11 +26,14 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string", hint: "Shown big on the card, e.g. Atoll 007" }
               - { label: "Reference code", name: "ref", widget: "string", required: false, hint: "Your internal code, e.g. KW-001" }
-                            - { label: "Category", name: "category", widget: "select", options: ["Diver", "Field", "GMT", "Dress", "Sport", "Chronograph", "Digital", "G-Shock", "Ladies", "Straps", "Parts"], hint: "Creates the filter tabs above the grid" }
+              - { label: "Category", name: "category", widget: "select", options: ["Diver", "Field", "GMT", "Dress", "Sport", "Chronograph", "Digital", "G-Shock", "Ladies", "Straps", "Parts"], hint: "Creates the filter tabs above the grid" }
               - { label: "Price (number only)", name: "price", widget: "string", hint: "No currency symbol — set the symbol in Site settings" }
               - { label: "Badge", name: "badge", widget: "string", required: false, hint: "Optional corner label, e.g. New or Limited" }
               - { label: "Availability", name: "stock", widget: "select", options: [{ label: "In stock", value: "in" }, { label: "Sold out", value: "out" }], default: "in" }
               - { label: "Photo", name: "image", widget: "image", required: false, hint: "Square photo works best. Leave empty to show the placeholder." }
+              - { label: "Photo alt text (English)", name: "alt_en", widget: "string", required: false, hint: "Describe the photo for Google and screen readers" }
+              - { label: "Photo alt text (Indonesian)", name: "alt_id", widget: "string", required: false }
+              - { label: "Photo alt text (Khmer)", name: "alt_km", widget: "string", required: false }
               - { label: "Description (English)", name: "desc_en", widget: "text" }
               - { label: "Description (Indonesian)", name: "desc_id", widget: "text", required: false }
               - { label: "Description (Khmer)", name: "desc_km", widget: "text", required: false }
